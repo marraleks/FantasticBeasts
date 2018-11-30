@@ -51,6 +51,7 @@ button {
   text-align: center;
   padding: 10px 25px 8px 25px;
   border-radius: 6px;
+  font-weight: bold;
 }
 
 button .knapp1 {
@@ -67,7 +68,7 @@ button:hover {
 
 .downArrow {
   position: absolute;
-  top: 85vh;
+  top: 85%;
   left: 50%;
   margin-left: -20px;
 }
@@ -284,7 +285,7 @@ h4 {
 
 
 
-@media (min-width: 500px) {
+@media (min-width: 769px) {
   
   #artikkel1 {
     position: relative;
@@ -442,21 +443,30 @@ h2 {
 .signatur {
   display: block;
   filter: brightness(0%);
-  width: 22vw;
+  height: 25vh;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 50px;
+  margin-top: 5em;
 }
 
 
 
 
-              @media (max-width: 500px) {
+              @media (max-width: 769px) {
 
                 header {
                   widows: 100vw;
                   height: 50vh;
                   position: relative;
+                }
+
+                .downArrow {
+                  display: none;
+                }
+
+                .bok {
+                  margin-top: 45px;
                 }
 
                 #myVideo {
@@ -484,7 +494,7 @@ h2 {
                 #artikkel1mobil {
                   width: 100%;
                   margin: auto;
-                  margin-top: 10%;
+                  margin-top: 5%;
                   max-width: 1280px;
                   display: grid;
                   grid-template-columns: 1fr;

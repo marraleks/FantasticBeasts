@@ -8,6 +8,7 @@
 
 .footprint {
     position: absolute;
+    opacity: 0.75;
 }
 
 #f1 {
